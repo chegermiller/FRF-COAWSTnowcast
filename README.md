@@ -18,6 +18,9 @@ f_FRF2swan_spc2d_dunex.m
 This function pulls directional wave spectra at the 8 m array from the FRF THREDDS server for a user-defined time period and write a SWAN-style spc2d file (.txt).
 
 grid = roms_duck_102019bathy_dunex_small.nc
+
 example obc = roms_duck_102019bathy_dunex_small_bry_20210509.nc
+
 example init = roms_duck_102019bathy_dunex_small_init_20210509.nc
+
 example spc2d = 8m_array_20210509.spc2d
